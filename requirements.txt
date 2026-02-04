@@ -1,0 +1,8 @@
+SQLAlchemy>=1.4
+alembic>=1.8
+psycopg2-binary>=2.9  # optional if using Postgres
+fastapi>=0.95
+uvicorn>=0.22
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7
+cryptography>=40.0

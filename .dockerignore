@@ -1,0 +1,17 @@
+__pycache__
+*.pyc
+.pytest_cache
+.venv
+venv
+env
+ENV
+build
+dist
+.git
+.idea
+*.sqlite
+*.db
+.env
+keys/private.pem
+keys/public.pem
+

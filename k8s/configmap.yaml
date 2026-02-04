@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: backend
+data:
+  # Application configuration values (non-sensitive)
+  APP_ENV: "production"
+  UVICORN_WORKERS: "4"
+  # Set to the SQLAlchemy URL if you prefer config here (recommended: use Secrets)
+  # DATABASE_URL: "postgresql+psycopg2://postgres:postgres@postgres:5432/appdb"
+  # REDIS_URL: "redis://redis:6379/0"
+  LOG_LEVEL: "info"
